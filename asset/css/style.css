@@ -63,7 +63,7 @@ a {
     background: #f7f8fb;
 }
 .hero-main {
-    padding: 50px 0;
+    padding: 30px 0;
     position: relative;
 }
 .hero-main .img-hero {
@@ -74,8 +74,9 @@ a {
 }
 .search-box {
     position: absolute;
-    left: calc(100% - 1000px);
-    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
     width: 800px;
     height: 70px;
     background-image: linear-gradient(to right, #e8f4ff, #ffffff);
@@ -181,7 +182,7 @@ a {
 
 /* Nội dung dưới */
 .event-info {
-    padding: 20px;
+    padding: 10px 20px 20px;
 }
 .list-card {
     margin-top: 50px;
